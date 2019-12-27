@@ -14,12 +14,18 @@
         "yiisoft/yii2": "~2.0.14",
         "overtrue/wechat": "~4.0"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~2.16",
+        "phpunit/phpunit": "~8.5"
+    },
     "autoload": {
         "psr-4": {
             "demokn\\easywechat\\": "src/"
         }
     },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16"
+    "autoload-dev": {
+        "psr-4": {
+            "demokn\\easywechat\\tests\\": "tests/"
+        }
     }
 }
